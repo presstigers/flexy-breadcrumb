@@ -15,9 +15,11 @@ With the help of this plugin you can style and format the text, links and separa
 * Set font size of breadcrumb trail.
 
 ### Shortcode
-``` [flexy_breadcrumb] ```
+```
+[flexy_breadcrumb]
+```
 
-### Submitting Patches =
+### Submitting Patches
 If you’ve identified a bug and have a fix, we’d welcome it at our [GitHub page for Flexy Breadcrumb](https://github.com/presstigers/flexy-breadcrumb/). Simply submit a pull request so we can review and merge into the codebase if appropriate from there.Happy coding!
 
 ## Installation
@@ -28,16 +30,18 @@ If you’ve identified a bug and have a fix, we’d welcome it at our [GitHub pa
 
 ## Frequently Asked Questions
 
-= How to use Flexy Breadcrumb Shortcode? =
+How to use Flexy Breadcrumb Shortcode?
 There are several methods but in general, you need to add the following line of code to your theme. This goes somewhere near the bottom of your theme's header.php template. However, you can add it anywhere you want in your theme, and it'll work.
 
-```<?php echo do_shortcode( '[flexy_breadcrumb]'); ?>```
+```
+<?php echo do_shortcode( '[flexy_breadcrumb]'); ?>
+```
 
 ## Credits
 
-* [Google Fonts] (https://fonts.google.com)
-* [jQuery UI] (https://jqueryui.com)
-* [WP Color Picker Alpha] (https://github.com/23r9i0/wp-color-picker-alpha)
+* [Google Fonts](https://fonts.google.com)
+* [jQuery UI](https://jqueryui.com)
+* [WP Color Picker Alpha](https://github.com/23r9i0/wp-color-picker-alpha)
 * [Font Awesome Icon Picker](https://github.com/itsjavi/fontawesome-iconpicker)
  
 ## Changelog
