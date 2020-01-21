@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/**
+ * Flexy Breadcrumb Front-end Core CSS File - V 1.0.0
+ *
+ * @author PressTigers <support@presstigers.com>, 2016
+ *
+ * @since   1.0.0
+ */
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1. Bootstrap
+2. Flexy Breadcrumb
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+1. Bootstrap
+--------------------------------------------------------------*/
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+.fbc-page .fbc-items {
+    margin-bottom: 20px;
+    list-style: none;
+    border-radius: 4px;
+}
+.fbc-page .fbc-items > li {
+    display: inline-block;
+}
+.fbc-page .fbc-items > li + li:before {
+    color: #ccc;
+}
+/*--------------------------------------------------------------
+2. Flexy Breadcrumb
+--------------------------------------------------------------*/
+/* Components */
+.fbc-page * {
+    margin: 0;
+    padding: 0;
+}
+.fbc-page .fbc-wrap .fbc-items {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    display: block;
+    float: left;
+    font-size: 16px;
+}
+.fbc-page .fbc-wrap .fbc-items li {
+    margin: 0 -2px;
+    padding: 15px 5px;
+    line-height: normal;
+}
+.fbc-page .fbc-wrap .fbc-items li:first-child {
+    border-radius: 4px 0 0 4px;
+    padding-left: 16px;
+    padding-right: 5px;
+}
+.fbc-page .fbc-wrap .fbc-items li:last-child {
+    border-radius: 0 4px 4px 0;
+    padding-right: 15px;
+}
+.fbc-page .fbc-wrap .fbc-items li a {
+    color: #337ab7; 
+}
+.fbc-page .fbc-wrap .fbc-items li a:last-child{
+    margin-right: 4px;
+}
+
+.fbc-page .fbc-wrap .fbc-items li a i {
+    margin-right: 11px;
+}
+.fbc-page .fbc-wrap .fbc-items li .fbc-separator {
+    margin-left: 15px;
+    margin-right: 18px;
+
+}
+.fbc-page .fbc-wrap .fbc-items li.active a {
+    color: #27272a;
+}
+
+@media (max-width: 768px){
+    .fbc-page .fbc-wrap .fbc-items{
+        padding: 0 10px;
+    }
+    .fbc-page .fbc-wrap .fbc-items li:first-child {
+        padding-left: 0;
+    }
+    .fbc-page .fbc-wrap .fbc-items li:last-child {
+        padding-right: 0;
+    }
+    .fbc-page .fbc-wrap .fbc-items li:nth-child(7),
+    .fbc-page .fbc-wrap .fbc-items li:nth-child(8),
+    .fbc-page .fbc-wrap .fbc-items li:nth-child(9){
+        padding-top: 0;
+    }
+    .fbc-page .fbc-wrap .fbc-items li{
+        padding: 10px 0;
+    }
+    .fbc-page .fbc-wrap .fbc-items li a i{
+        margin-right: 1px;
+    }
+    .fbc-page .fbc-wrap .fbc-items li .fbc-separator{
+        margin-left: 5px;
+        margin-right: 8px;
+    }
+}
+.fbc-page .clearfix::before, .fbc-page .clearfix::after {
+    content: " ";
+    display: table;
+}
+
+.fbc-page .clearfix::after {
+     clear: both;    
+}
