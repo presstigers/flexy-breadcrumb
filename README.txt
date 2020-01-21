@@ -44,7 +44,7 @@ There are several methods but in general, you need to add the following line of 
 `<?php echo do_shortcode( '[flexy_breadcrumb]'); ?>`
 
 = Submitting Patches =
-If you’ve identified a bug and have a fix, we’d welcome it at our [GitHub page for Flexy Breadcrumb](https://github.com/presstigers/flexy-breadcrumb/). Simply submit a pull request so we can review and merge into the codebase if appropriate from there. For more information, check out the readme at our GitHub page. Happy coding!
+If you’ve identified a bug and have a fix, we’d welcome it at our [GitHub page for Flexy Breadcrumb](https://github.com/presstigers/flexy-breadcrumb/). Simply submit a pull request so we can review and merge into the codebase if appropriate from there.Happy coding!
 
 == Screenshots ==
  
