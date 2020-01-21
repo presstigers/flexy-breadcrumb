@@ -18,10 +18,6 @@ With the help of this plugin you can style and format the text, links and separa
 ```
 [flexy_breadcrumb]
 ```
-
-### Submitting Patches
-If you’ve identified a bug and have a fix, we’d welcome it at our [GitHub page for Flexy Breadcrumb](https://github.com/presstigers/flexy-breadcrumb/). Simply submit a pull request so we can review and merge into the codebase if appropriate from there.Happy coding!
-
 ## Installation
 
 1. Upload flexy-breadcrumb.zip to the /wp-content/plugins/ directory to your web server.
