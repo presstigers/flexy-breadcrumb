@@ -85,7 +85,7 @@ class Flexy_Breadcrumb_Trail {
         $fbc_separator = $fbc_settings_options['breadcrumb_separator'];
 
         // Return Separator template
-        return $fbc_separator;
+        return '<li itemprop="itemSeparator">' . $fbc_separator . '</li>';
     }
 
     /**
