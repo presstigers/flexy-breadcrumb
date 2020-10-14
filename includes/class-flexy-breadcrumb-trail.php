@@ -85,7 +85,7 @@ class Flexy_Breadcrumb_Trail {
         $fbc_separator = $fbc_settings_options['breadcrumb_separator'];
 
         // Return Separator template
-        return $fbc_separator;
+        return '<li itemprop="itemSeparator">' . $fbc_separator . '</li>';
     }
 
     /**
@@ -129,8 +129,7 @@ class Flexy_Breadcrumb_Trail {
         $separator_template = $this->fbc_separator_template();
 
         // Home Text & Icon
-        if ($fbc_front_text || $fbc_home_icon) {
-            ?>
+        if ($fbc_front_text || $fbc_home_icon) { ?>
             <li itemprop="itemListElement" itemscope itemtype="<?php echo esc_url(""); ?>">
                 <span itemprop="name">
                     <!-- Home Link -->
@@ -148,8 +147,7 @@ class Flexy_Breadcrumb_Trail {
                     </a>
                 </span>
                 <meta itemprop="position" content="1" /><!-- Meta Position-->
-            </li>
-            <?php
+            </li><?php
             echo $separator_template;
         }
     }
